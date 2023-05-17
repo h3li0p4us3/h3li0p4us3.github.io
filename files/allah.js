@@ -5,6 +5,7 @@ const modalBtn = document.querySelector('.modal__button');
 
 setTimeout(()=>{
     modalMenu.classList.add('show');
+    
 },1);
 
 closeBtn.addEventListener('click',()=>{modalMenu.classList.remove('show')});
