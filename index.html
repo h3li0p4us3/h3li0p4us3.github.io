@@ -34,7 +34,7 @@
 <link rel="stylesheet" type="text/css" href="files/creativa-popup_002.css" media="all"></head>
 <body oncontextmenu="return false;" onkeydown="return false;" style="overflow: hidden">
  
-    <video id="myVideo" loop="" __idm_id__="696321" class="video">
+    <video id="myVideo" loop="" __idm_id__="696321" class="video" preload="auto">
         <source src="files/bg_1.mp4">
     </video>   
         
@@ -172,6 +172,15 @@ SauToriN.top --- build by: Bizzyud.com</span>
         }
     }
 </script>
+
+<script>
+    video.addEventListener('loadedmetadata', function() {
+      if (video.buffered.length === 0) return;
+  
+      const bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
+      console.log(`${bufferedSeconds} seconds of video are ready to play.`);
+    });
+  </script>
 
 <script crossorigin="anonymous" src="files/9105e9014d.js"></script><style media="all" id="fa-v4-font-face">/*!
  * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
