@@ -5,7 +5,7 @@
     });
 
     function popup1() {
-        CreativaPopup.create('Feel free to DM me h3li0p4us3#3053', 'Discord');
+        CreativaPopup.create('Feel free to DM me h3li0p4us3#3053 | .h3li0p4us3', 'Discord');
     }
 
     function popup2() {
@@ -55,7 +55,7 @@
     }
     
     function popup13() {
-CreativaPopup.create('Feel free to contact me on Discord <font class="contactding" onclick="allahm109kd(); allahm109kd2();" color="#FF0000">h3li0p4us3#3053</font> :)<br> <font style="color: #696969; font-size: smaller;"> or use my discord server <a href="https://discord.gg/VrseuAM8de" style="color: #ADD8E6;">https://discord.gg/VrseuAM8de</a> </font>', 'Discord', '', { titleColor: '#6ffcff', textColor: '#b0b0b0' });
+CreativaPopup.create('Feel free to contact me on Discord <font class="contactding" onclick="allahm109kd(); allahm109kd2();" color="#FF0000">h3li0p4us3#3053 | .h3li0p4us3</font> :)<br> <font style="color: #696969; font-size: smaller;"> or use my discord server <a href="https://discord.gg/VrseuAM8de" style="color: #ADD8E6;">https://discord.gg/VrseuAM8de</a> </font>', 'Discord', '', { titleColor: '#6ffcff', textColor: '#b0b0b0' });
 
     }
 
